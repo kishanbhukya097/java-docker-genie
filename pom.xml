@@ -16,6 +16,17 @@
 	<properties>
 		<java.version>17</java.version>
 	</properties>
+	<!-- ✅ CORRECT POSITION -->
+    <distributionManagement>
+        <repository>
+            <id>mynexid</id>
+            <url>http://192.168.230.128:8081/repository/maven-releases/</url>
+        </repository>
+        <snapshotRepository>
+            <id>mynexid</id>
+            <url>http://192.168.230.128:8081/repository/maven-snapshots/</url>
+        </snapshotRepository>
+    </distributionManagement>
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -41,16 +52,7 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
 		</plugins>
-			  <distributionManagement>
-    		  	  <repository>
-      				  <id>mynexid</id>      
-      					  <url>http://192.168.230.128:8081/repository/maven-releases/</url>
-    			  </repository>
-    			  <snapshotRepository>
-      				  <id>mynexid</id>
-      					  <url>http://192.168.230.128:8081/repository/maven-snapshots/</url>
-    			  </snapshotRepository>
-  			   </distributionManagement>
+			  
 	</build>
 
 </project>
