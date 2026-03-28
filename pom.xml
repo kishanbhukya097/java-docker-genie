@@ -19,11 +19,11 @@
 	<!-- ✅ CORRECT POSITION -->
     <distributionManagement>
         <repository>
-            <id>mynexid</id>
+            <id>my-nexus</id>
             <url>http://192.168.230.128:8081/repository/maven-releases/</url>
         </repository>
         <snapshotRepository>
-            <id>mynexid</id>
+            <id>my-nexus</id>
             <url>http://192.168.230.128:8081/repository/maven-snapshots/</url>
         </snapshotRepository>
     </distributionManagement>
