@@ -19,11 +19,11 @@
 	<!-- ✅ CORRECT POSITION -->
     <distributionManagement>
         <repository>
-            <id>my-maven-id</id>
+            <id>my-maven-i</id>
             <url>http://localhost:8081/repository/maven-releases/</url>
         </repository>
         <snapshotRepository>
-            <id>my-maven-id</id>
+            <id>my-maven-i</id>
             <url>http://localhost:8081/repository/maven-snapshots/</url>
         </snapshotRepository>
     </distributionManagement>
